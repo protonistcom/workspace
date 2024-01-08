@@ -7,7 +7,7 @@
 # Preface
 This is a fork of the laradock workspace project. 
 The reason is to support the newer version of Ubuntu 22.04 whereas the official 
-version to date is still based on Unbuntu 20.04.
+version to date is still based on Ubuntu 20.04.
 
 # How to
 Rename any Dockerfile-x.x to Dockerfile and build the image with the below commands
