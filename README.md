@@ -13,7 +13,7 @@ version to date is still based on Ubuntu 20.04.
 Rename any Dockerfile-x.x to Dockerfile and build the image with the below commands
 and push them to docker repository.
 ```
-docker build -t ssglopes/workspace:latest-8.3 -f Dockerfile .
+docker build --platform="linux/amd64" -t ssglopes/workspace:latest-8.3 -f Dockerfile .
 docker login -u "ssglopes" -p "password" docker.io
 docker push ssglopes/workspace:latest-8.3
 ```
