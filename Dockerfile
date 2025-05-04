@@ -55,6 +55,12 @@ RUN set -eux \
         libxml2-dev \
         xz-utils \
         libsqlite3-dev \
+        libzip-dev \
+        zip \
+        unzip \
+        nasm \
+        gzip \
+        brotli \
         rsync \
         sqlite3 \
         git \
